@@ -82,7 +82,8 @@ a.dropdown-item:hover {
   }
   .htxtContainer {
     display: inline-flex;
-    font-size: 5em;
+    font-size: 3em;
+    justify-content: center
   }
   .aboutMeDiv h1 {
     font-size: 150%;
