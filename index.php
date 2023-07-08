@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vee's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Cormorant+Garamond:ital@0;1&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
+</head>
+
+<body>
+    <div id="mainNavigation">
+        <!-- <nav role="navigation">
+            <div class="py-3 text-center border-bottom">
+                <img src="/static_files/images/logos/logo_3_white_2.png" alt="" class="invert">
+            </div>
+        </nav> -->
+        <div class="navbar-expand-md">
+            <div class="navbar-dark text-center my-2">
+                <button class="navbar-toggler w-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="align-middle">Menu</span>
+                </button>
+            </div>
+            <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#section-1">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#section-2">About Me</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Me
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#section-2">About Me</a></li>
+                            <li><a class="dropdown-item" href="#about3">Education</a></li>
+                            <li><a class="dropdown-item" href="#aboutInterest">Hobbies & Interest</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link portfolio" href="#" style="
+                  font-size: x-large;
+                  margin-top: -10px;
+                  font-family: 'Cormorant Garamond ';
+                ">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            What I Do
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#about2">Skills</a></li>
+                            <li><a class="dropdown-item" href="#section-3">What I Do</a></li>
+                            <li><a class="dropdown-item" href="#projects">Recent Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-4">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-1" class="section1 row">
+        <img class="homePic1 col-m-12" src="images/vee1.jpg" data-aos="slide-down" data-aos-duration="2000" />
+        <div class="col-m-12 htxtContainer">
+            <h1 class="htxt-left" data-aos="slide-right" data-aos-mirror="true" data-aos-anchor=".homePic1" data-aos-duration="2000">
+                Hello,
+            </h1>
+            <h1 class="htxt-right" data-aos="slide-left" data-aos-mirror="true" data-aos-anchor=".homePic1" data-aos-duration="2000">
+                I'm
+                <i>Vee</i>
+            </h1>
+        </div>
+    </div>
+
+    <div id="section-2">
+        <div class="row aboutMain" id="about1" data-aos-duration="2000" data-aos="flip-down" data-aos-mirror="false">
+            <img class="aboutMePic " src="images/gif3.gif" alt="" />
+            <div class="aboutMe  col-7 ">
+                <div class="aboutMeDiv col-6">
+                    <h1>About Me</h1>
+                    <h5 style="text-align: justify;">
+                        I'm Venus Marie D. Eras, an IT student studying at Cavite State University - Bacoor City Campus.
+                        I'm fueled by my passion for reading, crocheting and a whole lot of milktea.
+                    </h5>
+                    <h5 style="text-align: justify;">
+                        Most of the time you'll find me tapping away on my laptop with a milktea by my side, creating
+                        web applications or scrolling on Pinterest looking for new trends.
+                    </h5>
+                    <br>
+                    <a href="veeResume.pdf" target="_blank" class="btn btn-light">Download CV</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row aboutEduc" id="about3">
+            <div class="row educContainer">
+                <h1 class="educTitle col-12">EDUCATION</h1>
+                <div class="toprow row" data-aos="zoom-out" data-aos-duration="2000" data-aos-mirror="false">
+                    <!-- data-aos-anchor-placement="top-center" -->
+
+                    <div class="col-lg-3 col-10 educBox">
+                        <div class="icon"><img src="images/educ2.jpg" class="pusheen"></div>
+                        <div class="trivia">
+                            <h3>Elementary</h3>
+                            <p>I studied at Golden Acres Elementary School from 2007-2013 and graduated with honors.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-10 educBox">
+                        <div class="icon"><img src="images/educ4.jpg" class="pusheen"></div>
+                        <div class="trivia">
+                            <h3>HIGH SCHOOL</h3>
+                            <p>I attended Junior High School at Golden Acres National High School and then transferred
+                                to Informatics College - Alabang during Senior High School. I graduated
+                                with honors on both schools </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-10 educBox">
+                        <div class="icon"><img src="images/educ3.jpg" class="pusheen"></div>
+                        <div class="trivia">
+                            <h3>COLLEGE</h3>
+                            <p>I'm a fourth year student studying at Cavite State University - Bacoor Campus. I'm
+                                currently taking Bachelor of Science in Information Technology and is set to graduate on
+                                the first week of September.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row aboutInterest" id="aboutInterest">
+            <div class="row aboutInterest2">
+                <div class="room1 row" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" data-aos-mirror="false">
+                    <h1 style="text-align:center;margin-bottom:30px;font-family:Dancing Script;font-size:350%">
+                        My
+                        Hobbies & Interests</h1>
+                    <div class="room1det col-6">
+                        <h1>NAIL ART</h1>
+                        <div class="card2bod">
+                            <br>
+                            <p>
+                                Creating nail art is not just a hobby; it is a passionate pursuit that brings immense
+                                joy and fulfillment into my life. With every stroke of the brush and every delicate
+                                detail added to the canvas of my nails, I find myself immersed in a world of endless
+                                possibilities and artistic expression.
+                                <br><br>
+                                The process of creating nail art is not just about aesthetics; it is a delicate dance
+                                between artistry and precision. It requires a steady hand, an eye for detail, and a
+                                touch of patience.
+                            </p>
+
+
+                        </div>
+                    </div>
+                    <img src="images/interest1-1.jpg" class="col-lg-5" />
+
+                </div>
+            </div>
+            <div class="row aboutInterest1">
+                <div class="col-12 col-lg-6 col-md-12 aboutInterestLeft">
+                    <img class="col-10 col-lg-3 col-md-7 i1" src="images/interest3.jpeg" alt="" />
+                    <img class="col-10 col-lg-7 col-md-7 i2" src="images/interest4.jpeg" alt="" />
+                </div>
+                <div class="col-6 aboutPage3right">
+                    <h1 data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" data-aos-mirror="false">
+                        CROCHETING
+                    </h1>
+                    <div class="card1 col-7" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" data-aos-mirror="false">
+                        <div class="card1bod">
+                            <br>
+                            <p style="text-align: justify;">
+                                Crocheting is a profound passion that brings me immense joy and a sense of fulfillment.
+                                The rhythmic movement of the crochet hook, the soft touch of yarn gliding through my
+                                fingers, and the transformation of a simple thread into a beautiful creation are all
+                                aspects that captivate me and draw me into a world of creativity and self-expression.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row aboutInterest2">
+                <div class="room1 row" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" data-aos-mirror="false">
+                    <img src="images/interest5.jpeg" class="col-lg-5" />
+                    <div class="room1det col-6">
+                        <h1>Reading</h1>
+                        <div class="card2bod">
+                            <br>
+                            <p style="text-align: justify;">
+                                Reading is not just an interest but a transformative journey that broadens perspectives,
+                                ignites the imagination, and nurtures the mind. Through the power of words, it
+                                transports me to new realms, stimulates intellectual growth, and provides solace and
+                                inspiration. It is a lifelong adventure that continues to enrich and captivate me,
+                                leaving an indelible imprint on my heart and mind
+                            </p>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row aboutSkills" id="about2" data-aos-duration="2000" data-aos="fade-in" data-aos-mirror="true">
+            <h1>My Skills</h1>
+
+
+
+            <div class="skills">
+                <div class="row">
+                    <div class="item col-lg-5 col-10" data-aos-duration="2000" data-aos-anchor="#about2" data-aos="zoom-out" data-aos-mirror="true">
+                        <div class="item-text">
+                            <span>HTML5</span>
+                            <span class="w-90">90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class=" progress-bar1 "></div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-5 col-10" data-aos-duration="2000" data-aos-anchor="#about2" data-aos="zoom-out" data-aos-mirror="true">
+                        <div class="item-text">
+                            <span>CSS</span>
+                            <span class="w-90">75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="  progress-bar2 w-90"></div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-5 col-10" data-aos-duration="2000" data-aos-anchor="#about2" data-aos="zoom-out" data-aos-mirror="true">
+                        <div class="item-text">
+                            <span>PHP</span>
+                            <span class="w-90">85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="  progress-bar3 w-90"></div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-5 col-10" data-aos-duration="2000" data-aos-anchor="#about2" data-aos="zoom-out" data-aos-mirror="true">
+                        <div class="item-text">
+                            <span>C#</span>
+                            <span class="w-90">45%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="  progress-bar4 w-90"></div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-5 col-10" data-aos-duration="2000" data-aos-anchor="#about2" data-aos="zoom-out" data-aos-mirror="true">
+                        <div class="item-text">
+                            <span>Java</span>
+                            <span class="w-90">45%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="  progress-bar5 w-90"></div>
+                        </div>
+                    </div>
+                    <div class="item col-lg-5 col-10" data-aos-duration="2000" data-aos-anchor="#about2" data-aos="zoom-out" data-aos-mirror="true">
+                        <div class="item-text">
+                            <span>Javascript</span>
+                            <span class="w-90">30%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="  progress-bar6 w-90"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <img src="images/catSilhouette.png" alt=""> -->
+
+        </div>
+
+
+        <div class="container1" id="section-3">
+            <!-- <div class="section-title1">
+                <h1>What I do</h1>
+            </div> -->
+
+            <div class="row aboutStayTitle">
+                <h3 class="">
+                    &nbsp;WHAT I DO
+                </h3>
+                <h5 class="row" data-aos-duration="2000" data-aos="fade-in" data-aos-mirror="true">
+                    I am a passionate web developer that offers a range of services to help you bring
+                    your ideas to life and achieve your online goals.
+                </h5>
+            </div>
+
+            <div class="row" data-aos-duration="2000" data-aos="fade-right" data-aos-mirror="true">
+
+                <div class="column">
+
+                    <div class="effect">
+                        <div class="effect-img">
+                            <img src="images/gif4.gif" height="740px" alt="">
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>UI/UX Design</h2>
+                                <p>User experience is at the core of every successful digital product. I create user
+                                    interface (UI) and user experience (UX) design, ensuring that your websites and
+                                    applications are intuitive and easy to navigate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <img src="images/gif1.gif" height="740px" alt="">
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>Web Development</h2>
+                                <p>I specialize in creating functional websites. Using the latest web technologies such
+                                    as HTML5, CSS3, and Bootstrap, I create dynamic and responsive websites that provide
+                                    an exceptional user experience across devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <img src="images/gif5.gif" height="740px" alt="">
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>Custom Software Development:</h2>
+                                <p>Sometimes, off-the-shelf software solutions don't meet your unique needs. That's
+                                    where my custom software development services come in. I work closely with you to
+                                    understand your requirements and create tailor-made software applications that
+                                    streamline your operations, enhance productivity, and drive growth.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row" id="projects">
+
+            <h1 class="projectTitle">Recent Projects</h1>
+
+            <div class="container">
+                <div class="row row-offset-0">
+
+                    <!-- PORTFOLIO ITEM 1 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-1.png" data-lightbox="roadtrip" title="Project One - Resort Website Created for a Client"><img class="grayscale" src="images/project-thumb-1.png" width="400px" style="height: 400px;" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 2 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-2.png" data-lightbox="roadtrip" title="Project Two - Website about Jose Rizal"><img class="grayscale" src="images/project-thumb-2.png" style="height:400px" width="400px" height="500px" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-3.png" data-lightbox="roadtrip" title="Project Three - Database Data Manipulation"><img class="grayscale" src="images/project-thumb-3.png" width="400px" style="height: 400px;" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 4 -->
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-4.png" data-lightbox="roadtrip" title="Project Four - Inventory Management System"><img class="grayscale" src="images/project-thumb-4.png" style="height:400px" width="400px" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 5 -->
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-5.png" data-lightbox="roadtrip" title="Project Five - Report Generation System for the Property Department at UPHSD"><img class="grayscale" src="images/project-thumb-5.png" style="height:400px" width="400px" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 6 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-6.png" data-lightbox="roadtrip" title="Project Six - Relocation Management Information System"><img class="grayscale" src="images/project-thumb-6.png" width="400px" style="height: 400px;" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 7 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-7.png" data-lightbox="roadtrip" title="Project Seven - Library System (Collaborator on the Project)"><img class="grayscale" src="images/project-thumb-7.png" width="400px" style="height: 400px;" alt="Portfolio Item"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+
+                    <!-- PORTFOLIO ITEM 8 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="overlay-effect effects clearfix">
+                            <div class="img">
+                                <a href="images/project-large-8.png" data-lightbox="roadtrip" title="Project Eight - Healthcare Center MIS (Collaborator on the Project)"><img class="grayscale" src="images/project-thumb-8.png" width="400px" style="height: 400px;" alt="Portfolio Item"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO ITEM END -->
+                </div>
+                <!--/row-->
+            </div>
+            <!--/.container-->
+            <!-- ========================== 
+        PORTFOLIO SECTION END 
+        =========================== -->
+
+        </div>
+
+        <div id="section-4" class="row">
+            <div class=" col-12 contact1">
+                <span class="s4txt1">GET IN TOUCH </span>
+                <h5 class=" s4txt2">You can reach me on any of the following platform</h5>
+            </div>
+            <div class="row contactBtns">
+                <a class=" col-lg-3 col-md-5 col-5 cBtn" data-aos-duration="2000" data-aos="fade-right" data-aos-mirror="true" href="tel:+639751480175">&phone; +639665341502</a>
+                <a class="col-lg-3 col-md-5 col-5 cBtn" data-aos-duration="2000" data-aos="fade-left" data-aos-mirror="true" href="https://web.facebook.com/VenusEras21">
+                    FB: View My Facebook Profile</a>
+            </div>
+            <div class="row contact2">
+                <span class="s4txt3">For everything else</span><br>
+                <a href="mailto:venuseras21@gmail.com">venuseras21@gmail.com</a>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js" integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false,
+        });
+    </script>
+</body>
+
+</html>
