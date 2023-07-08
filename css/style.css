@@ -5,6 +5,7 @@ html {
 body {
   background-color: #b6977d;
   scroll-behavior: smooth;
+  overflow:hidden;
 }
 #mainNavigation a {
   font-family: "Cabin", sans-serif;
