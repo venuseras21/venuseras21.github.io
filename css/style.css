@@ -101,7 +101,8 @@ a.dropdown-item:hover {
     /* position: absolute; */
     /* top: 15%;
     right: 10%; */
-    width: 100vw;
+/*     width: 100vw; */
+    width: 100%;
   }
   .aboutMePic {
     position: relative;
@@ -384,7 +385,7 @@ a.dropdown-item:hover {
 /* section 1 */
 
 .section1 {
-  width: 100vw;
+/*   width: 100vw; */
   background-color: #352620;
   /* background: url(../images/beige-bg1.jpg);
   background-size: 100% 100%;
