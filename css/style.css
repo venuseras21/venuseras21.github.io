@@ -238,6 +238,14 @@ a.dropdown-item:hover {
     -ms-transform: scale(1.01); */
     box-shadow: 0px 10px 10px white;
   }
+  .toprow .educBox h3 {
+  color: white;
+  font-family: bookman old style;
+  font-weight: 1000;
+  /* -webkit-text-stroke: 0.1vw black; */
+  text-shadow: 0px 0px 10px #352620;
+  margin-top: 50%;
+}
 }
 @media only screen and (min-width: 600px) {
   .homePic1 {
@@ -380,6 +388,14 @@ a.dropdown-item:hover {
     transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(-40px, 0, 0);
   }
+  .toprow .educBox h3 {
+  color: white;
+  font-family: bookman old style;
+  font-weight: 1000;
+  /* -webkit-text-stroke: 0.1vw black; */
+  text-shadow: 0px 0px 10px #352620;
+  margin-top: 40%;
+}
 }
 
 /* section 1 */
@@ -664,14 +680,7 @@ a.dropdown-item:hover {
   background: #372a1a;
 }
 
-.toprow .educBox h3 {
-  color: white;
-  font-family: bookman old style;
-  font-weight: 1000;
-  /* -webkit-text-stroke: 0.1vw black; */
-  text-shadow: 0px 0px 10px #352620;
-  margin-top: 40%;
-}
+
 .toprow .educBox:hover .icon {
   top: 20px;
   left: calc(50% - 17.5%);
