@@ -5,7 +5,7 @@ html {
 body {
   background-color: #b6977d;
   scroll-behavior: smooth;
-  overflow:hidden;
+  overflow: hidden;
 }
 #mainNavigation a {
   font-family: "Cabin", sans-serif;
@@ -83,7 +83,7 @@ a.dropdown-item:hover {
   .htxtContainer {
     display: inline-flex;
     font-size: 3em;
-    justify-content: center
+    justify-content: center;
   }
   .aboutMeDiv h1 {
     font-size: 150%;
@@ -101,7 +101,7 @@ a.dropdown-item:hover {
     /* position: absolute; */
     /* top: 15%;
     right: 10%; */
-/*     width: 100vw; */
+    /*     width: 100vw; */
     width: 100%;
   }
   .aboutMePic {
@@ -226,11 +226,11 @@ a.dropdown-item:hover {
     font-size: 110%;
     color: white;
   }
-
+  /* 
   .img a {
     justify-content: flex-end;
     display: flex;
-  }
+  } */
 
   .img:hover img {
     /* -webkit-transform: scale(1.01);
@@ -239,13 +239,13 @@ a.dropdown-item:hover {
     box-shadow: 0px 10px 10px white;
   }
   .toprow .educBox h3 {
-  color: white;
-  font-family: bookman old style;
-  font-weight: 1000;
-  /* -webkit-text-stroke: 0.1vw black; */
-  text-shadow: 0px 0px 10px #352620;
-  margin-top: 50%;
-}
+    color: white;
+    font-family: bookman old style;
+    font-weight: 1000;
+    /* -webkit-text-stroke: 0.1vw black; */
+    text-shadow: 0px 0px 10px #352620;
+    margin-top: 50%;
+  }
 }
 @media only screen and (min-width: 600px) {
   .homePic1 {
@@ -389,19 +389,19 @@ a.dropdown-item:hover {
     -ms-transform: translate3d(-40px, 0, 0);
   }
   .toprow .educBox h3 {
-  color: white;
-  font-family: bookman old style;
-  font-weight: 1000;
-  /* -webkit-text-stroke: 0.1vw black; */
-  text-shadow: 0px 0px 10px #352620;
-  margin-top: 40%;
-}
+    color: white;
+    font-family: bookman old style;
+    font-weight: 1000;
+    /* -webkit-text-stroke: 0.1vw black; */
+    text-shadow: 0px 0px 10px #352620;
+    margin-top: 40%;
+  }
 }
 
 /* section 1 */
 
 .section1 {
-/*   width: 100vw; */
+  /*   width: 100vw; */
   background-color: #352620;
   /* background: url(../images/beige-bg1.jpg);
   background-size: 100% 100%;
@@ -680,7 +680,6 @@ a.dropdown-item:hover {
   background: #372a1a;
 }
 
-
 .toprow .educBox:hover .icon {
   top: 20px;
   left: calc(50% - 17.5%);
@@ -779,7 +778,7 @@ img.grayscale:hover {
   /* text-align: center; */
   width: 100%;
 }
-.effects .img:nth-child(n) {
+/* .effects .img:nth-child(n) {
   margin-right: 5px;
 }
 .effects .img:first-child {
@@ -787,7 +786,7 @@ img.grayscale:hover {
 }
 .effects .img:last-child {
   margin-right: 0;
-}
+} */
 .effects .img img {
   display: block;
   margin: 0;
